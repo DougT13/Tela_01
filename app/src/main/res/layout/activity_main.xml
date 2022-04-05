@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_roxo"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Welcome back"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/anton"/>
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="148dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_arrow_downward_24" />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="@color/white"
+       android:text="COMPANY NAME"
+       android:textSize="35dp"
+       android:fontFamily="@font/anton"
+       android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/containedButton"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sing In"
+        android:backgroundTint="@color/laranja"/>
+
+</LinearLayout>
